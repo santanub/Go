@@ -18,7 +18,7 @@ func determine_count(array []string, elem string) int {
 }
 
 func main() {
-	input_string := "Santanu Prosen Santanu Santanu Santanu Prosen Santanu Prosen Ankit Aniket Aniket Halka Rajib"
+	input_string := "Santanu Prosen Santanu Santanu Santanu Prosen Santanu Prosen Ankit Aniket Aniket Halka Rajib Santanu"
 	m := strings.Fields(input_string)
 	x := make(map[string]int)
 
